@@ -25,7 +25,6 @@ public class Control : MonoBehaviour
     }
 
     public void ShareButtonClick(){
-        img.color = colorYellow;
         GoUnityScript.GetComponent<UnityScript>().RequestJs();
     }
 
